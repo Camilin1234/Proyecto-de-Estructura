@@ -16,6 +16,8 @@ Limitaciones actuales
 Cronograma
 <img width="675" height="262" alt="image" src="https://github.com/user-attachments/assets/aae994bd-379d-40d7-bd8a-ad2fecfd87e4" />
 
+
+
 const rutas = {
   "Bogotá": {
     inicio: { nombre: "Centro Bogotá", lat: 4.6097, lon: -74.0817 },
@@ -61,6 +63,9 @@ if (datosRuta) {
   );
   console.log(`Distancia aproximada: ${distancia} km`);
 }
+
+
+
 
 Este código define un objeto llamado rutas donde cada ciudad tiene un punto de inicio y uno de destino con sus coordenadas. Primero, se llama a la función obtenerRuta, que busca la ciudad que indiquemos y muestra la información de sus puntos en consola. Después, se usa calcularDistancia, que aplica la fórmula de Haversine para calcular la distancia aproximada en kilómetros entre dos coordenadas. Finalmente, imprime el resultado en consola.
 En este avance se trabaja solo con Bogotá y Medellín, pero el sistema está hecho para crecer fácilmente y agregar más rutas, así como datos de tráfico y seguridad en próximas fases.
