@@ -71,3 +71,14 @@ Este código define un objeto llamado rutas donde cada ciudad tiene un punto de 
 En este avance se trabaja solo con Bogotá y Medellín, pero el sistema está hecho para crecer fácilmente y agregar más rutas, así como datos de tráfico y seguridad en próximas fases.
 
 
+Para que el protecto pase de ser estático a un poco más real si es necesario el uso de APIS, en nuestra busqueda encontramos las siguientes:
+
+Geocodificación
+Convierte direcciones en coordenadas (latitud y longitud) y viceversa. Facilita registrar puntos sin precargar coordenadas y mostrar nombres de lugares en vez de solo números.
+Algunas podrian ser Google Maps API, Mapbox.
+
+Rutas o Direcciones
+Calcula distancias y tiempos de viaje por carreteras reales, no en línea recta. Permite obtener rutas alternativas e instrucciones paso a paso, mejorando la precisión en la planeación logística para este podemos usar Google Directions API.
+
+Tráfico
+Entrega información actualizada sobre congestión, accidentes y demoras. Ajusta el tiempo de viaje y ayuda a optimizar la selección de rutas según las condiciones actuales, algunas apis conocidas que nos podrían servir son Google Traffic Layer, Waze API.
